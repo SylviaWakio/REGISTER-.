@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+</head>
+<body>
+<H1>Students Registration Form</H1>
+<form style="border: 3px solid black;">
+<hr>
+<label for="firstname">First Name</label><br>
+<input type="text" name="firstname" placeholder="Enter your first name here" required autofocus><br>
+<label for="lastname">Last Name</label><br>
+<input type="text" name="lastname" placeholder="Enter your last name here" required><br>
+<label for="middlename">Middle Name</label><br>
+<input type="text" name="middlename" placeholder="Enter your middle name here"><br>
+<label for="email">Email</label><br>
+<input type="email" name="email" size="30" placeholder="sylvianjeru@gmail.com" required autocomplete="on"><br>
+<label for="phone">Phone Number</label><br>
+<input type="tel" name="phone" placeholder="Enter your phone number here" required><br>
+<label for="borndate">Date of birth</label><br>
+<input type="date" name="borndate"><br>
+Gender:<br>
+<input type="radio" name="gender" value="Male" checked> Male
+<input type="radio" name="gender" value="Female"> Female <hr>
+Select your County:
+<select>
+	<option value="Nairobi">Nairobi</option>
+	<option value="Mombasa">Mombasa</option>
+	<option value="Kisumu">Kisumu</option>
+	<option value="Eldoret">Eldoret</option>
+</select><br>
+Attach the National ID: <input type="file" name="myid"><br><hr>
+<input type="submit" value="Click to Register">
+</form>
+</body>
+</html>
